@@ -1,0 +1,291 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header
+{
+    display:flex;
+    background-color:#1769fd;
+    width:100%;
+    height:12vh;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+}
+
+header h1
+{
+    margin-left:23px;
+    color: white;
+}
+
+header nav{
+    /* margin-left :40px; */
+    padding-left: 500px;
+    /* margin:0px 20px; */
+}
+header nav a
+{
+    color:white;
+    font-size:20px;
+    padding : 5px;            
+    text-decoration: none;
+}
+header nav a:hover 
+{
+    color:blue;
+    font-size:23px;
+    transition: 1000ms;
+}
+
+.demo-btn
+{   
+    margin-left: 50px;
+    background-color: white;
+    padding:15px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1769fd;
+    font-size:15px;
+}
+/* Media query for Header */
+
+@media screen and (max-width:475px)
+
+
+{
+     header h1
+        {
+            margin-left:10px;
+            color: white;
+        }
+        header nav{
+        
+            padding-left: 40px;
+            display: inline-block;
+            
+                }
+
+        .demo-btn
+        {   
+            /* margin-left: 20px; */
+            margin-right: 20px;
+            background-color: white;
+            padding:10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #1769fd;
+            font-size:15px;
+        }
+
+}
+
+
+/* Online Coding Section */
+
+.OnlineCoding
+{
+    display: flex;
+    background-color: white;
+    width:100%;
+    height:80vh;
+    align-items: center;
+    text-align: center;
+}
+
+.OnlineCoding-Col1
+{
+   width:40%;
+}
+
+.OnlineCoding-Col2
+{
+   width:60%;
+}
+
+.OnlineCoding-Col2 img{
+   width:600px;
+}
+
+
+.OnlineCoding h2
+{
+    font-size: 35px;
+    color: #1769fd;
+    font-weight:700;
+    padding:20px 0px;
+}
+
+/* Media query for online coding */
+@media screen and (max-width:475px)
+{
+    
+    .OnlineCoding
+    {
+        padding-top: 100px;
+        display: block;
+        /* height:120vh; */
+    }
+    .OnlineCoding-Col1
+    {
+        width:100%;
+        align-items: center;
+       
+    }
+    .OnlineCoding-Col2
+    {
+        width:100%;
+        padding:10px;
+    }
+    .OnlineCoding-Col2 img{
+        width:400px;
+     }
+}
+
+/* Why Coding section */
+
+.WhyCoding
+{
+   width:100%;
+   height:100vh;
+   background-color: #1769fd;
+   /* display:flex; */
+   align-items: center;
+   text-align: center;
+}
+
+.WhyCodingRow
+{
+   display:flex;
+   justify-content: space-evenly;
+}
+.section-heading
+{
+    padding:30px 0;
+    font-size: 40px;
+    text-align: center;
+}
+.white
+{
+    color:white;
+}
+.yellow
+{
+    color:yellow;
+}
+
+.WhyCodingRow div
+{
+    background-color: wheat;
+    flex-basis: 350px;
+    padding:20px;
+    /* justify-content: space-evenly; */
+}
+
+.WhyCodingRow div:hover
+{
+    transform: scale(110%);
+}
+
+
+@media screen and (max-width:475px)
+
+{
+    .section-heading
+{
+    padding:0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.WhyCodingRow
+{
+    display:block;
+}
+.WhyCodingRow div img
+{
+    width:100px;
+}
+
+};
+
+}
+
+
+/* Why Coodefun */
+
+.whyCoodefun
+{
+    width:100%;
+    height:80vh;
+    background-color: yellow;
+    align-items: center;
+    text-align: center;
+}
+
+.black
+{
+    color:black;
+}
+.blue
+{
+    color: #1769fd;
+}
+
+.whyCoodefun-row
+{
+    display:flex;
+}
+.whyCoodefun img
+{
+    width:400px;
+}
+.whyCoodefun-Col1
+{
+    width:40%;
+}
+.whyCoodefun-Col2
+{
+    width:60%;
+    text-align: left;
+    font-size: 30px;
+    line-height:50px ;
+}
+
+.homeComfort
+{
+    width:100%;
+    height:70vh;
+    background-color: #1769fd;
+}
+
+.CodingCourses
+{
+    width:100%;
+    height:120vh;
+    background-color:whitesmoke;
+}
+
+footer
+{
+    background-color: #1769fd;
+    height:20vh;
+    width:100%;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+
+/* Style for Gallery Page */
+
+  .Gallery
+  {
+      width:100%;
+    height:120vh;
+    background-color: whitesmoke;
+
+    }
